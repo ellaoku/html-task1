@@ -1,0 +1,32 @@
+.contact {
+    width: 80%;
+}
+
+.contact label{
+    margin: 10px 0;
+    padding: 10px 10px;
+    color: white;
+   
+}
+
+.contact input, textarea {
+    padding: 10px 10px;
+    width: 100%;
+    margin: 10px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.contact button {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border: none;
+    width: 120px;
+    font-size: 16px;
+}
+
+#error_message {
+    color: orange;
+}

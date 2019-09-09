@@ -2,10 +2,17 @@
    <html>
        <head>
            <title>ELLA'S CV</title>
+           <link rel="stylesheet" href="style.css">
+           <script src="contact.js"></script>
            </head>
            <body>
                <div>
-                 
+                 <style>
+                     body {background-color: teal;}
+                     h1 {color: white;}
+                     h2 {color: white;}
+                     h3{color: white;}
+                     </style>
                     <center><h1 id="name">CURRICULUM VITAE</h1></center>
     <div>
            <div>
@@ -19,6 +26,7 @@
 <ul>
        <li>Proficiency in Microsoft Office Applications (Word, Excel and PowerPoint, Outlook)</li> 
        <li>Proficiency in Quickbook Software </li>
+       <li>Proficiency in HTML and CSS </li>
        <li> An average knowledge of photoshop</li>
         <li>Timeliness in meeting targets</li>
         <li>Resilient Spirit</li> 
@@ -83,9 +91,31 @@
                    <li>Databank Universal Economic School Club (Dues)January 2012 – September 2012 - (Deputy Finance Director of the Club) </li>
            </ul>
 
-<h4>REFEREES: On request. </h4>
+<h3>REFEREE: On Request. </h3>
     </ul>
 </div>
 
+<div class="contact">
+   <h3>Contact me!</h3>
+   <div id="error_message"></div>
+
+    <form id="contact" onsubmit="return validation()">
+
+<div>
+    <label for="title">Title</label>
+    <input type="text" name="title" id="title" placeholder="write your title...">
+</div>
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="write your name...">
+
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email" placeholder="write your email...">
+
+    <label for="textarea">Your Message</label>
+    <textarea cols="20" rows="10" id="textarea"></textarea>
+
+    <button type="submit" id="submit">Submit</button>
+    </form>
+</div>
 </body>
 </html>
